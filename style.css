@@ -1,0 +1,25 @@
+:root {
+  --body-bg-color: #22212c;
+  --text-color: #837e9f;
+  --bg-cards: #302f3d;
+  --bg-techs: #cb92b1;
+}
+
+main {
+  display: grid;
+  grid-template-areas:
+    "side content content"
+    "foot foot foot";
+}
+
+aside {
+  grid-area: side;
+}
+
+article {
+  grid-area: content;
+}
+
+footer {
+  grid-area: foot;
+}
