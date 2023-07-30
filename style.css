@@ -8,6 +8,7 @@
 body {
   background-color: var(--body-bg-color);
   color: var(--text-color);
+  font-family: "Merriweather Sans";
 }
 
 /* display */
@@ -43,7 +44,6 @@ aside div {
 .profile {
   height: 292px;
   text-align: center;
-  font-family: "Merriweather Sans";
 }
 
 .profile img {
@@ -62,4 +62,30 @@ aside div {
 .profile p {
   font-size: 13px;
   font-weight: 300;
+}
+
+/* card dos links */
+.links {
+  height: 348px;
+  text-align: left;
+}
+
+.links a {
+  display: flex;
+  margin-left: 40px;
+  margin-top: 20px;
+
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.links img {
+  width: 24px;
+  height: 24px;
+}
+
+.links #map {
+  padding-top: 34px;
 }
