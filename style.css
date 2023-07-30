@@ -37,13 +37,14 @@ aside div {
   background-color: var(--bg-cards);
   width: 348px;
   border-radius: 20px;
-  margin: 40px 60px 30px 40px;
+  margin: 0 60px 30px 40px;
 }
 
 /* card do perfil */
 .profile {
   height: 292px;
   text-align: center;
+  margin-top: 40px;
 }
 
 .profile img {
@@ -88,4 +89,44 @@ aside div {
 
 .links #map {
   padding-top: 34px;
+}
+
+/* card das tecnologias */
+.technologies {
+  height: 208px;
+  text-align: left;
+}
+
+.technologies h3 {
+  display: flex;
+  margin-left: 20px;
+  padding-top: 30px;
+
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.technologies p {
+  width: 86px;
+  height: 24px;
+  background-color: var(--bg-techs);
+  border-radius: 30px;
+  text-align: center;
+
+  color: black;
+
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  justify-content: center;
+
+  display: inline-flex;
+  align-items: center;
+  margin-left: 15px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.technologies section {
+  margin-left: 15px;
 }
