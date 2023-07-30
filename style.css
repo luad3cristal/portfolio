@@ -38,6 +38,8 @@ aside div {
   width: 348px;
   border-radius: 20px;
   margin: 0 60px 30px 40px;
+
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 /* card do perfil */
@@ -129,4 +131,47 @@ aside div {
 
 .technologies section {
   margin-left: 15px;
+}
+
+/* card das experiência */
+.experiences {
+  height: 349px;
+  text-align: left;
+}
+
+.experiences h3 {
+  display: flex;
+  margin-left: 20px;
+  padding-top: 30px;
+
+  margin-top: 0;
+
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.experiences ul {
+  margin-top: 20px;
+  margin-left: 20px;
+
+  width: 175px;
+  height: 243px;
+}
+
+.experiences ul li {
+  font-size: 14px;
+  font-weight: 700;
+  /* padding-left: 40px; */
+}
+
+.experiences ul span {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.experiences ul p {
+  font-size: 12px;
+  font-weight: 400;
+
+  margin-top: 2px;
 }
