@@ -5,11 +5,18 @@
   --bg-techs: #cb92b1;
 }
 
+body {
+  background-color: var(--body-bg-color);
+  color: var(--text-color);
+}
+
+/* display */
 main {
   display: grid;
   grid-template-areas:
     "side content content"
     "foot foot foot";
+  grid-template-rows: auto;
 }
 
 aside {
@@ -22,4 +29,37 @@ article {
 
 footer {
   grid-area: foot;
+}
+
+/* side content */
+aside div {
+  background-color: var(--bg-cards);
+  width: 348px;
+  border-radius: 20px;
+  margin: 40px 60px 30px 40px;
+}
+
+/* card do perfil */
+.profile {
+  height: 292px;
+  text-align: center;
+  font-family: "Merriweather Sans";
+}
+
+.profile img {
+  margin-top: 32px;
+  border: 2px solid #0f0;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.profile h3 {
+  font-size: 23px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.profile p {
+  font-size: 13px;
+  font-weight: 300;
 }
