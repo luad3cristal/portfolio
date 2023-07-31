@@ -9,6 +9,10 @@ body {
   background-color: var(--body-bg-color);
   color: var(--text-color);
   font-family: "Merriweather Sans";
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* display */
@@ -32,7 +36,7 @@ footer {
   grid-area: foot;
 }
 
-/* side content */
+/* conteúdo lateral */
 aside div {
   background-color: var(--bg-cards);
   width: 348px;
@@ -215,4 +219,37 @@ aside div {
   font-weight: 400;
 
   margin-top: 2px;
+}
+
+/* conteúdo principal */
+article div {
+  background-color: var(--bg-cards);
+  border-radius: 20px;
+  margin: 40px 40px 0 0;
+
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* título dos projetos */
+.projects {
+  width: 952px;
+  height: 86px;
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+  gap: 700px;
+}
+
+.projects h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.projects a {
+  text-decoration: none;
+  color: var(--text-color);
+
+  font-size: 14px;
+  font-weight: 400;
 }
