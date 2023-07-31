@@ -161,7 +161,6 @@ aside div {
 .experiences ul li {
   font-size: 14px;
   font-weight: 700;
-  /* padding-left: 40px; */
 }
 
 .experiences ul span {
@@ -170,6 +169,48 @@ aside div {
 }
 
 .experiences ul p {
+  font-size: 12px;
+  font-weight: 400;
+
+  margin-top: 2px;
+}
+
+/* card da educação */
+.education {
+  height: 352px;
+  text-align: left;
+}
+
+.education h3 {
+  display: flex;
+  margin-left: 20px;
+  padding-top: 30px;
+
+  margin-top: 0;
+
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.education ul {
+  margin-top: 20px;
+  margin-left: 20px;
+
+  width: 175px;
+  height: 243px;
+}
+
+.education ul li {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.education ul span {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.education ul p {
   font-size: 12px;
   font-weight: 400;
 
