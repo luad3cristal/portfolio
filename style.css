@@ -334,3 +334,21 @@ article div {
 
   font-weight: 400;
 }
+
+/* posts */
+.posts {
+  width: 952px;
+  height: 86px;
+
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+}
+
+.posts h3 {
+  font-size: 20px;
+  font-weight: 700;
+
+  margin: 0 0 30px 30px;
+  padding-top: 30px;
+}
