@@ -253,3 +253,84 @@ article div {
   font-size: 14px;
   font-weight: 400;
 }
+
+/* projetos */
+.projects- {
+  background: none;
+  display: inline-flex;
+  border-radius: none;
+
+  gap: 30px;
+
+  box-shadow: none;
+}
+
+.lil-projects {
+  width: 461px;
+  height: 186px;
+  margin: 0;
+}
+
+.lil-projects a {
+  width: 120px;
+  height: 20px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+
+  text-decoration: none;
+  color: var(--text-color);
+
+  margin: 30px 0 20px 30px;
+
+  padding: 0;
+}
+
+.lil-projects p {
+  margin: 0 0 30px 30px;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.lil-projects .star {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  margin: 0;
+  margin-left: 30px;
+}
+
+.lil-projects .gitbranch {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  margin: 0;
+  margin-left: 16px;
+}
+
+.lil-projects .ball {
+  display: inline-flex;
+  align-items: right;
+  justify-content: center;
+  gap: 8px;
+
+  margin-left: 170px;
+
+  border: 7px solid #e7de79;
+  border-radius: 50%;
+  outline: 3px solid #837e9f;
+}
+
+.lil-projects span {
+  font-size: 14px;
+
+  font-weight: 400;
+}
