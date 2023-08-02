@@ -345,6 +345,11 @@ article div {
   justify-content: center;
 }
 
+.posts a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
 .posts h3 {
   font-size: 20px;
   font-weight: 700;
