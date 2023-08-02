@@ -352,3 +352,48 @@ article div {
   margin: 0 0 30px 30px;
   padding-top: 30px;
 }
+
+/* post 1 */
+
+.posts- {
+  width: 952px;
+  height: 201px;
+
+  display: inline-flex;
+}
+
+.posts- img {
+  margin: 31px 0 42px 30px;
+  border-radius: 50%;
+}
+
+.posts- section {
+  margin-left: 21px;
+  margin-top: 30px;
+}
+
+.posts- h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.posts- #years {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 28px;
+}
+
+.posts- p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 11px;
+}
+
+.posts- span {
+  margin-right: 21.5px;
+  font-size: 14px;
+  font-weight: 400;
+}
