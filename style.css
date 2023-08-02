@@ -397,3 +397,19 @@ article div {
   font-size: 14px;
   font-weight: 400;
 }
+
+/* adicionando o rodapé */
+footer {
+  display: inline-flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+  margin-bottom: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--text-color);
+}
